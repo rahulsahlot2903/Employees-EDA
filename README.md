@@ -1,27 +1,37 @@
-🧑‍💼 Employees Data Analysis (EDA) - Python & MySQL
-This project presents an Exploratory Data Analysis (EDA) on an Employees dataset using Python and MySQL. The goal was to clean, explore, and visualize employee-related data to extract meaningful business insights.
+# Employees Data Analysis - SQL Project
 
-🔍 Objectives
-Understand the structure and content of employee data
+## 📌 Project Overview
+This project focuses on analyzing employee data using SQL queries.  
+The dataset includes employee details, departments, salaries, managers, and job titles.  
 
-Clean and preprocess data for analysis
+## 🛠️ Skills Used
+- SQL Queries
+- Joins (INNER JOIN, GROUP BY, HAVING)
+- Aggregations (COUNT, AVG, MAX, MIN)
+- Subqueries
+- Data Analysis with SQL
 
-Analyze demographics, salary, department distribution, and more
+## 📊 Key Queries Implemented
+1. Retrieve all employee details  
+2. Find employees hired after 1990  
+3. Count total employees  
+4. Find oldest and youngest employees  
+5. Analyze hiring trends per year  
+6. Gender distribution by department  
+7. Highest paid employees with their department and job title  
+8. Average salary per department  
+9. Employees with leap-year birthdays 🎂  
+10. Employees hired on their birthday 🎉  
 
-Identify patterns, trends, and potential anomalies
+## 🚀 How to Use
+1. Import the `employees` database  
+2. Run the queries from `Employees.sql`  
+3. Explore insights from the results  
 
-🛠️ Tools & Technologies
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+## 📂 File
+- `Employees.sql` → Contains all SQL queries
 
-MySQL
+## 📢 Author
+👤 [Rahul Sahlot]  
+🔗 [www.linkedin.com/in/rahul-sahlot-2346452bb]
 
-Jupyter Notebook
-
-🧼 Data Cleaning Steps
-Removed duplicate and null records
-
-Converted date formats and calculated experience
-
-Normalized categorical variables
-
-Handled outliers in salary and age
